@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    background: #ff7eb3;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.15);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+/*log in form*/ 
+
+/* LEFT SIDE (Design Section) */
